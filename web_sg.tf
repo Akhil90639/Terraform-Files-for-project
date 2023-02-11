@@ -32,7 +32,7 @@ resource "aws_security_group" "demosg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
   tags = {
-     Name = "Web SG"
+    Name = "Web SG"
   }
 }
-                         
+
